@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+  <title>CSCI 274 - Intro to Linux</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css"
+            href="https://fonts.googleapis.com/css?family=Ubuntu+Mono">
+</head>
+<body>
+	<div id="content_main">
+		<div id="logodiv"><img src="CS_logo.png"></div>
+		<div class="page-header">
+			<h1>CSCI 274 - Intro to Linux</h1>
+		</div>
+		
+		<a href="https://ctj232.github.io/274linux/syllabus.pdf"
+			target="_blank"><button class="btn btn-danger">View
+				Syllabus</button></a>
+		<a href="https://piazza.com/class/ixhqgjxm7cu2bs?cid=3#"
+			target="_blank"><button class="btn
+				btn-info">Piazza</button></a>
+		<h3>Schedule <small style="font-size:50%;">Subject To Change</small></h3>
+		<p>Classes are held at 11 AM MST in Green Center 297<p>
+		<p>Office Hours will be held in BB136 on Wednesdays from 12 - 1 PM and Tuesdays/Thursdays from 11 AM - 12 PM</p>
+		<p>Remember to check <a
+			href="https://piazza.com/class/ixhqgjxm7cu2bs?cid=3#"
+			target="_blank">Piazza</a> often! You can even
+			post <span class="italic">anonymously</span> if you have
+			questions or comments!</p>
+		<h4>Week One (<a href="learning-goals.txt" target="blank" class="learning-goals">Assessable Learning Goals</a>)</h4>
+		<ul>
+			<li>Tuesday, January 10 (<a href="lectures/1.pdf" target="blank">Lecture Slides</a> | <a href="assignments/choose-editor.txt" target="blank">Choose Editor Assignment Description</a> | <a href="https://goo.gl/forms/vI7scFMqB9JzgEXk1" target="blank">Editor Assignment Form</a> | <a href="https://goo.gl/forms/P3GpxQLHjUJdM9Wi2" target="blank">Survey Form</a>)</li>
+			<ul>
+				<li>Review Syllabus and Introduce Course</li>
+				<li>Online Documentation: <span class="tt">apropos, man</span></li>
+				<li>The Editor War - <span class="tt">vim</span> or <span class="tt">emacs</span>?</li>
+			</ul>
+			<li>Wednesday, January 11</li>
+			<ul>
+				<li class="due">DUE by 11:59pm: <a href="https://goo.gl/forms/P3GpxQLHjUJdM9Wi2" target="blank">Survey Form</a></li>
+				<li>Interacting with the Command Line:
+					<span class="tt">script, pwd, ls, cd, cat, less, export, alias, echo<span></li>
+				<li>Start a <span class="tt">CHEATSHEET.LNX</span> File for Notes</li>
+				<li>Working with Remote Machines:
+					<span class="tt">ssh, scp, ssh-keygen</span></li>
+			</ul>
+			<li>Friday, January 13</li>
+			<ul>
+				<li class="due">DUE by classtime: <a href="https://goo.gl/forms/vI7scFMqB9JzgEXk1" target="blank">Editor Assignment Form</a></li>
+				<li>UNIX Style Filesystems:
+					<span class="tt">touch, mkdir, rmdir, rm, cp, mv, find, mount, sshfs</span></li>
+				<li>Filesharing:
+					<span class="tt">wget, tar, scp</span></li>
+				<li>Example tarball: <a href="lectures/example.tar.bz">example.tar.bz</a></li>
+			</ul>
+		</ul>
+		<h4>Week Two (<a href="learning-goals-2.txt" target="blank" class="learning-goals">Assessable Learning Goals</a>)</h4>
+		<ul>
+			<li>Monday, January 16</li>
+			<ul>
+				<li class="holiday">Martin Luther King Day Holiday - Campus Closed (beginning 2017)</li>
+			</ul>
+			<li>Wednesday, January 18 (<a href="assignments/submit-cheatsheet.txt" target="blank">CHEATSHEET.LNX Initial Submission Description</a>)</li>
+			<ul>
+				<li>Interrogating Files:
+					<span class="tt">wc, file, df, du, stat</span></li>
+				<li>I/O Actions:
+					<span class="tt">echo, read, &lt;, &gt;, &gt;&gt;, /dev/null</span></li>
+			</ul>
+			<li>Friday, January 20 (<a href="assignments/unix-history.txt" target="blank">UnixHistory.sh Assignment Description</a>)</li>
+			<ul>
+				<li><span class="tt">bash</span> Scripting: Example <a href="lectures/shell-dessert.sh">shell-dessert.sh</a></li>
+				<li>Variables, Wildcards, Special Characters, and Quoting</li>
+			</ul>
+		</ul>
+		<h4>Week Three (<a href="learning-goals-3.txt" target="blank" class="learning-goals">Assessable Learning Goals for Midterm Exam</a>)</h4>
+		<ul>
+			<li>Monday, January 23</li>
+			<ul>
+				<li class="due">DUE by 11:59pm: <a href="https://www.gradescope.com/courses/5849/assignments/19013" target="blank">Submit UnixHistory.sh</a></li>
+				<li class="due">DUE by 11:59pm: <a href="https://www.gradescope.com/courses/5849/assignments/18945" target="blank">Submit CHEATSHEET.LNX</a></li>
+				<li>Loop Constructs: <span class="tt">while-do-done</span> (<a href="lectures/tlw.sh" target="blank">tlw.sh</a>)</li>
+				<li>Exit Status: <span class="tt">$?</span></li>
+				<li>Control Signals: <span class="tt">CTRL-C, CTRL-D, CTRL-L, CTRL-Z, CTRL-R</span></li>
+			</ul>
+			<li>Wednesday, January 25 (<a href="assignments/quoth.txt" target="blank">Quoth.sh Assignment Description</a> | <a href="assignments/quotes.tar.gz" target="blank">quotes.tar.gz</a>)</li>
+			<ul>
+				<li>Process Control: <span class="tt">top, ps, kill</span></li>
+				<li>Conditional Constructs: <span class="tt">test, false, true, yes, if-then-fi</li>
+				<li>Tarball of Lecture Materials: <a href="lectures/jan25.tar.gz" target="blank">jan25.tar.gz</a></li>
+			</ul>
+			<li>Friday, January 27</li>
+			<ul>
+				<li class="due">DUE by 11:59pm: <a href="https://www.gradescope.com/courses/5849/assignments/19537" target="blank">Submit Quoth.sh</a></li>
+				<li>Catch - Up, If Needed</li>
+				<li>Midterm Review</li>
+			</ul>
+		</ul>
+		<h4>Week Four (<a href="learning-goals-4.txt" target="blank" class="learning-goals">Assessable Learning Goals</a>)</h4>
+		<ul>
+			<li>Monday, January 30</li>
+			<ul>
+				<li>Midterm Exam (In-Class)</li>
+			</ul>
+			<li>Wednesday, February 1 (<a href="assignments/title-check.txt" target="blank">TitleCheck.sh Assignment Description</a>)</li>
+			<ul>
+				<li>Go Over Midterm</li>
+				<li>Pattern Centric Control Structures:
+					<span class="tt">case-in-esac, for-do-done</span></li>
+			</ul>
+			<li>Friday, February 3</li>
+			<ul>
+				<li>Common Pipeline Utilities: <span class="tt">grep, head, tail, sort, uniq, tr</span></li>
+			</ul>
+		</ul>
+		<h4>Week Five (<a href="learning-goals-5.txt" target="blank" class="learning-goals">Assessable Learning Goals</a>)</h4>
+		<ul>
+			<li>Monday, February 6</li>
+			<ul>
+				<li class="due">DUE by 11:59pm: <a href="https://www.gradescope.com/courses/5849/assignments/20166" target="blank">Submit TitleCheck.sh</a></li>
+				<li>Files, Hidden Files</li>
+				<li>Common Pipeline Utilities: <span class="tt">cut, tee</span></li>
+				<li>Pipelines from your Editor</li>
+			</ul>
+			<li>Wednesday, February 8 (<a href="assignments/lite-lifting.txt" target="blank">LiteLifting.sh Assignment Description</a>)</li>
+			<ul>
+				<li>Stream Editing: <span class="tt">sed</span></li>
+				<li>Pipelines and the Linux Philosophy</li>
+			</ul>
+			<li>Friday, February 10</li>
+			<ul>
+				<li>Identity, Ownership, and Permissions</li>
+				<li class="tt">chmod, chown, id, users, who, newgrp, sudo, chgrp, sg, su, umask</li>
+			</ul>
+		</ul>
+		<h4>Week Six (<a href="final-learning-goals.txt" target="blank" class="learning-goals">Assessable Learning Goals for Final Exam</a>)</h4>
+		<ul>
+			<li>Monday, February 13</li>
+			<ul>
+				<li>File System Links: <span class="tt">ln</span></li>
+				<!-- <li><span class="tt">extract</span> as an example of good aliases</li> -->
+			</ul>
+			<li>Wednesday, February 15</li>
+				<ul>
+					
+					<li>Final Exam Review</li>
+				</ul>
+				<li>Thursday, February 16</li>
+				<ul>
+					<li class="due">DUE by 11:59pm: <a href="https://www.gradescope.com/courses/5849/assignments/20757" target="blank">Submit LiteLifting.sh</a></li>
+				</ul>
+			<li>Friday, February 17</li>
+				<ul><li>Final Exam (In-Class)</li></ul>
+		</ul>
+		<h4>Week Seven</h4>
+		<ul>
+			<li>Monday, February 20</li>
+				<ul>
+					<li class="holiday">Presidents' Day
+						Break</li>
+				</ul>
+			<li>Wednesday, February 22</li>
+			<ul>
+				<li>Extra Credit Lecture</li>
+				<li>Possibly Privacy and Integrity: <span class="tt">gpg, sha256sum</span></li>
+				<li>Possibly discuss cool tools, customizations, and continued learning</li>
+			</ul>
+		</ul>
+		<h3>Contact</h3>
+		<strong>C. Travis Johnson</strong><br> Email:
+		<a href="mailto:cjohnso0@mymail.mines.edu">
+			<img src="email.png" id="email">
+		</a>
+		<br>Office: BB280L
+	</div>
+
+</body></html>
