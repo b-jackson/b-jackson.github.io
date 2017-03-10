@@ -96,7 +96,7 @@ to clear out the tree of directories.
 Submission
 ==========
 Submit your UnixHistory.sh script for grading on Gradescope here:
-Link to be added later. Sorry.
+https://www.gradescope.com/courses/6835/assignments/23325
 
 Rubric
 ======
