@@ -127,8 +127,7 @@ Use cat to display the contents of the appropriate quote.txt.
 
 Submission
 ==========
-Submit your Quoth.sh script for grading on Gradescope here:
-Link will be added later. Sorry again.
+Submit your Quoth.sh script for grading on Gradescope.
 
 Rubric [26 pts total]
 ======

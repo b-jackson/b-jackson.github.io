@@ -2,7 +2,6 @@
 =   Assignment - Lite Lifting   =
 =================================
 
-DUE: Thursday, February 16, 2017 by 11:59pm
 
 Description
 ===========
@@ -19,7 +18,7 @@ Requirements, Assumptions, and Definitions
 ==========================================
 
 Write a script, called LiteLifting.sh, it will read the first command line
-argument as ($1) as a data file name.
+argument ($1) as a data file name.
 
 LiteLifting.sh will process the file in several different ways based on its
 contents.
@@ -45,7 +44,7 @@ white space. For instance, consider a file containing:
 	Jill.
 
 The 4th word of the first line is ball. (including the period!); the second
-word of the first line is had; and the second word of the second line is, well,
+word of the first line is had; and the second word of the second line is
 nothing --- it doesn't exist.
 
 Expected Output
@@ -58,15 +57,14 @@ This file has XXX empty lines.
 This file contains XXX alphanumeric characters.
 The 4th word of the 3rd line of text is /XXX/
 
+The slashes in the last line of output matter.
+Notice that every output line ends in a '.' character except for the last line.
 
-Notice that every line ends in a '.' character except for the last line.
+In all cases the XXX should be replaced with the appropriate result. If a file does
+not contain the specified data then the result should be reported as numerical 0 
+or an empty string depending on the context.
 
-In all cases the XXX should be replaced the appropriate result. If a file does
-not contain the specified data (you are looking for a date string but you find
-none) then the result should be reported as numerical 0 or an empty string
-depending on the context.
-
-ADDITIONALLY: If the file contains the phrase (case sensitive) Capital Idea anywhere, even
+ADDITIONALLY: If the file contains the phrase (case sensitive) "Capital Idea" anywhere, even
 broken across two lines, then create a version of the input file with all
 capital letters ([A-Z]) converted to their lowercase values. Store this new
 file alongside old with the appended extension .lc (for lower case). You may
@@ -104,8 +102,7 @@ number scope for sed operators (eg: -e 3,4s/Harry/Sally/).
 
 Submission
 ==========
-Submit your LiteLifting.sh script for grading on Gradescope here:
-https://www.gradescope.com/courses/5849/assignments/20757
+Submit your LiteLifting.sh script for grading on Gradescope.
 
 Rubric [48 pts total]
 =====================

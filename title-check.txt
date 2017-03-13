@@ -2,7 +2,6 @@
 =   Assignment - Title Check	=
 =================================
 
-Due: Friday, February 3, 2017 by 11:59pm
 
 Description
 ===========
@@ -60,9 +59,7 @@ doesn't rely on a Linux trick or specialized Unix knowledge.
 
 Submission
 ==========
-Submit your TitleCheck.sh script for grading on Gradescope here:
-https://www.gradescope.com/courses/5849/assignments/20166
-
+Submit your TitleCheck.sh script for grading on Gradescope.
 
 Rubric [23 points total]
 ======
