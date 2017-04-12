@@ -1,8 +1,6 @@
-This document will not be in it's final form until Monday night after I've written the exam
-
-Know the bash command along with its options -x and -e for running bash scripts
+Know the bash command for running bash scripts
 Know how the apropos command is useful in searching the system's online help (the word apropos can be defined as "very appropriate to a particular situation").
-Know what the man command does and why it is useful
+Know what the man command does and why it is useful. You will get terminal time. 
 
 Know how to reference command line arguments in bash scripts (e.g., what is $1, $2, ..., $@?)
 Know the input and output redirection operators <, >, and >>
@@ -45,7 +43,7 @@ Command: grep and its options -l, -v, -e
 Command: head and its -n option; note that head -n 3 is the same as head -3
 Command: tail and its -n option; note that tail -n 3 is the same as tail -3
 Command: sort and its options -n, -k, and -t
-Command: uniq (note the connection to sort)
+Command: uniq (note the connection to sort) and uniq -c
 Command: tr and its option -d
 Command: wc and its options -w and -l
 Command: cat
@@ -66,5 +64,5 @@ LINKING
 =======
 Be able to use stat to count the number of hard links to a particular inode.
 Be able to discuss the differences between hard and soft links
-
-This document will not be in it's final form until Monday night after I've written the exam
+Know the ln command and the -s option
+Have a good conceptual understanding of inodes, filesystem entities, and links. 
